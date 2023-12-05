@@ -18,7 +18,7 @@ jobs:
         run: cargo install --locked cargo-mutants
 
       - name: Run mutation tests
-        run: cargo mutants --gitignore false --no-shuffle
+        run: cargo mutants --no-shuffle
 
       - name: Archive results
         uses: actions/upload-artifact@v3
