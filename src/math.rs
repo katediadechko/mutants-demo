@@ -9,5 +9,6 @@ mod tests {
     #[test]
     fn test_is_positive() {
         assert_eq!(is_positive(5), true);
+        //assert_eq!(is_positive(0), false);
     }
 }
